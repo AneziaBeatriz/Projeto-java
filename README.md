@@ -1,2 +1,2 @@
 # Projeto-java
-Sistema de gerenciamento de tarefas
+Sistema de vendas online
