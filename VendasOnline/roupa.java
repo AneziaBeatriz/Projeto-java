@@ -8,7 +8,6 @@ public class Roupa extends Produto {
         this.tamanho = tamanho;
     }
 
-
     @Override
     public double calcularCustoEnvio() {
         return super.calcularCustoEnvio() + 1.0;
