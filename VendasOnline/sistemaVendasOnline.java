@@ -1,7 +1,5 @@
 package VendasOnline;
 
-import java.util.scanner;
-
 public class SistemaVendasOnline {
     public static void main(String[] args) {
         Eletronico smartphone = new Eletronico("Smartphone", 899.99, 10, "110V");
@@ -11,3 +9,4 @@ public class SistemaVendasOnline {
         System.out.println("Custo de envio para a camisa: $" + camisa.calcularCustoEnvio());
     }
 }
+
