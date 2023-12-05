@@ -35,10 +35,8 @@ package VendasOnline;
 
 public class SistemaVendasOnline {
     public static void main(String[] args) {
-        // Aqui você pode criar instâncias de produtos e realizar operações
         Produto produto = new Produto("Produto A", 10.0, 50);
         
-        // Exemplo de utilização
         System.out.println("Nome: " + produto.getNome());
         System.out.println("Preço: $" + produto.getPreco());
         System.out.println("Quantidade em Estoque: " + produto.getQuantidadeEmEstoque());
